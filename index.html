@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Event Playground</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>🎆 Welcome to the JavaScript Playground!</h1>
+    <button id="magicButton">Click Me!</button>
+    <div class="gallery">
+        <img id="galleryImage" src="https://plus.unsplash.com/premium_photo-1729283814187-9b3d09e4ee32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gallery" />
+    <br />
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+
+    <div class="tabs">
+        <button class="tab" data-tab="tab1">Tab 1</button>
+        <button class="tab" data-tab="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">This is content for Tab 1.</div>
+    <div id="tab2" class="tab-content" style="display:none;">This is content for Tab 2.</div>
+    </div>
+
+    <form id="myForm">
+        <label>Email:
+            <input type="email" id="email" required />
+        </label>
+        <br>
+        <br>
+        <label>Password:
+            <input type="password" id="password" required />
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+            <p id="formFeedback"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
